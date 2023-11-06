@@ -4,7 +4,7 @@ describe('Use of alias', () => {
     cy.get('[type="search"][name="q"]').as('searchbox');
     cy.get('@searchbox').type(
       "Alp's Cypress demo is showing me how aliases work! {enter}",
-      { delay: 30 }
+      { delay: 40 }
     );
   });
 });
